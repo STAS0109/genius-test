@@ -1,0 +1,23 @@
+ body{
+    background-color: aqua;
+ }
+ body {
+    font-family: sans-serif;
+    line-height: 1.45;
+    font-size: 17px;
+  }
+  
+  .rotate {
+    background-color: red;
+    display: inline-block;
+    color: #f1f1f1;
+    padding: 36px;
+    margin: 5px;
+    font-style: italic;
+    animation: rotate 5s linear 0s infinite normal none;
+  }
+  
+  .rotate.hidden {
+    backface-visibility: hidden;
+  }
+  
